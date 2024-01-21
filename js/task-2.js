@@ -1,6 +1,6 @@
 class Storage {
   constructor(initialItems) {
-    this.items = initialItems || [];
+    this.items = initialItems;
   }
 
   getItems() {
